@@ -1,0 +1,12 @@
+// Nexora - PostgreSQL schema (users, channels, memberships)
+// Phase 1: connection + tooling only. Models (User, Channel, Membership)
+// are added in Phase 2 alongside JWT auth and channel routes.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
