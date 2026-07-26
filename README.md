@@ -40,8 +40,8 @@ Everything above Phase 2 is a production enhancement layered on top of the MVP.
 
 | Feature | Phase | Status |
 |---------|-------|--------|
-| User auth (register, login, JWT) | 1 | ⬜ Upcoming |
-| Channel creation and membership | 1 | ⬜ Upcoming |
+| User auth (register, login, JWT) | 1 |  completed |
+| Channel creation and membership | 1 | completed |
 | Real-time messaging via WebSocket | 2 | ⬜ Upcoming |
 | Direct messages (DMs) | 2 | ⬜ Upcoming |
 | Online/offline presence | 2 | ⬜ Upcoming |
@@ -320,7 +320,7 @@ npm run prisma:studio  # Visual database browser
 
 ## Build Phases
 
-- [ ] **Phase 1 — Foundation:** Express, TypeScript, PostgreSQL + Prisma, MongoDB + Mongoose, env validation, health check
+- [x] **Phase 1 — Foundation:** Express, TypeScript, PostgreSQL + Prisma, MongoDB + Mongoose, env validation, health check
 - [ ] **Phase 2 — Core real-time (MVP):** Socket.io, channel messaging, DMs, typing indicators, read receipts, presence, message history pagination
 - [ ] **Phase 3 — Scaling:** Redis Pub/Sub adapter for Socket.io, Redis session store, multi-server support
 - [ ] **Phase 4 — Background jobs:** BullMQ queues, email notifications for missed messages, cron cleanup jobs
